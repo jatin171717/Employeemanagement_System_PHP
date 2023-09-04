@@ -1,0 +1,103 @@
+.container{
+    margin-top: 200px;
+    margin-left: 450px;
+    height: 250px;
+    width: 500px;
+    background-color:rgb(211, 232, 239);
+    padding: auto;
+ 
+
+
+}
+input[type=text],select{
+    width: 50%;
+    padding: 12px 20px;
+    margin-left: 100px;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password],select{
+    width: 50%;
+    padding: 12px 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+   
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit]{
+        margin-left: 100px;
+        margin-top: 10px;
+        background-color: #a9e1ea;
+
+}
+input[type=submit]:hover{
+    background-color: pink;
+}
+
+
+
+
+
+.a{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+h2{
+    padding-left: 150px;
+}
+h1{
+    background-color: rgb(211, 231, 238);
+    color: black;
+    padding-left: 500px;
+}
+.b{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-image: url("images1.png");
+    background-size: cover;
+    background-color: lightpink;
+        border: 2px solid lightpink;
+    position: absolute;
+    left: 20px;
+    top:100px;
+    /*howmany time the animation works here we can use "infinite" also */
+    animation-name: animationdirection;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;/*animationdirection normal(move from left to right and directly come back),reverse,alternate(means go from left to right and samely come from right to left*/
+    animation-iteration-count:infinite;
+}
+
+@keyframes animationdirection{
+    from{left: 0px;}
+    to{left:1500px;}
+}
+.c{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-image: url("images1.png");
+    background-size: cover;
+    background-color: lightpink;
+        border: 2px solid lightpink;
+    position: absolute;
+    left: 20px;
+    top:100px;
+    /*howmany time the animation works here we can use "infinite" also */
+    animation-name: animationdirection;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;/*animationdirection normal(move from left to right and directly come back),reverse,alternate(means go from left to right and samely come from right to left*/
+    animation-iteration-count:infinite;
+}

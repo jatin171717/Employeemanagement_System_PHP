@@ -1,0 +1,164 @@
+.group{
+    padding-left: 200px;
+    margin-left: 200px;
+ 
+    margin-right: 100px;
+
+}
+.main{
+
+    padding-top: 30px;
+}
+.required:after{
+    content: "*";
+    color: red;
+}
+h3{
+    margin-right: 150px;
+}
+
+.a{
+    width: 400px;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    margin-left: 30px;
+
+    background-color: lightcyan;
+}
+#a{
+    display: flex;
+
+}
+
+.z{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+}
+.info:after{
+    content: "*";
+    color: red;
+}
+#input1{
+    border-radius: 2px;
+    margin-top:20px;
+    text-size:20px;
+}
+.pfinfo{
+    margin-left: 30px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 900px;
+    background-color: lightcyan;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.column1{
+    position: relative;
+    width: 600px;
+}
+#pfno{
+    padding-right: 40px;
+}
+.contactinfo{
+    margin-left: 50px;
+    position: absolute;
+    top: 160px;
+    right: 100px;
+    width: 700px;
+    height: 300px;
+    background-color: lightcyan;
+}
+#s{
+    margin-left: 50px;
+    padding-left: 50px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+#h{
+    margin-left: 100px;
+}
+.personalinfo{
+    margin-left: 50px;
+    position: absolute;
+    top: 480px;
+    right: 100px;
+
+    width: 700px;
+    height: 300px;
+    background-color: lightcyan;
+}
+#j{
+    margin-left: 100px;
+}
+#k{
+    padding-left:100px;
+    
+}
+#k1{
+    margin-left: 50px;
+}
+#k2{
+    margin-left: 80px;
+    
+}
+#k3{
+    margin-left: 50px;
+}
+#k4{
+    margin-left: 50px;
+}
+#k5{
+    margin-left: 20px;
+}
+.info2{
+    margin-left: 100px;
+}
+.otherinfo{
+    margin-left: 50px;
+    position: absolute;
+    top: 800px;
+    right: 100px;
+
+    width: 700px;
+    height: 300px;
+    background-color: lightcyan;
+
+}
+h1{
+    text-align: center;
+    width: 1000px;
+    margin-left: 300px;
+    
+
+
+}
+#jack{
+    width: 80px;
+    height: 50px;
+
+    
+    position: absolute;
+    left: 430px;
+}
+#xyz{
+    text-align: right;
+    margin-right: 100px;
+}
+body{
+    background-color: rgb(154, 244, 244);
+}
+
